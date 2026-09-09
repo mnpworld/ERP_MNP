@@ -11,8 +11,10 @@ Functional prototype สำหรับยืนยัน workflow ก่อน�
 
 ## เปิดใช้งาน
 
+ต้องมี Node.js จากนั้นรันโดยไม่ต้องติดตั้ง dependency:
+
 ```powershell
-python -m http.server 8787
+node server.js
 ```
 
 เปิด `http://localhost:8787/` ข้อมูลจำลองเก็บใน localStorage และคืนค่าเริ่มต้นได้จากปุ่มมุมขวาบน
